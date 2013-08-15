@@ -1,0 +1,112 @@
+body {
+	background-color: #c5c5c4;
+}
+
+header {
+	text-align: center;
+}
+header h1 {
+	font-size: 60px;
+	font-height: 20px;
+	font-family: Arial;
+	color: #666;
+	text-shadow: 0px 2px 1px #bbbaba;
+}
+
+.content {
+	width: 500px;
+	margin: auto;
+	text-align: center;
+}
+
+.noteSupBar {
+	width: 500px;
+	height: 15px;
+	background-color: #663333;
+}
+.noteBody {
+	width: 500px;
+	background-color: white;
+}
+
+.inputField {
+	width: 450px;
+	height: 50px;
+	background-color: #eeeeee;
+	border: none;
+	padding: none;
+	margin: none;
+	float: right;
+	font-family: Arial;
+	font-size: 20px;
+	font-style: italic;
+	color: #aaaaaa;
+}
+
+.submit {
+	width: 45px;
+	height: 50px;
+	background-color: #eeeeee;
+	border: none;
+	float: left;
+}
+
+.inputLine {
+	width: 500px;
+	height: 52px;
+	background-color: #eeeeee;
+	border-bottom: 1px dotted gray;
+}
+
+.noteLine {
+	width: 500px;
+	height: 52px;
+	background-color: white;
+	border-bottom: 1px dotted gray;
+	text-align: left;
+	vertical-align: middle;
+}
+.noteLine p {
+	margin-left: 45px;
+	font-family: Arial;
+	font-size: 20px;
+	color: #333333;
+	line-height: 10px;
+	display: inline-block;
+}
+.noteLine form {
+	display: inline-block;
+	float: right;
+	font-size: 20px;
+	font-weight: bold;
+	color: #663333;
+	background-color: white;
+	border: none;
+	cursor: pointer;
+	margin: 10px 10px 0 0;
+}
+.noteLine form input {
+	font-size: 20px;
+	font-weight: bold;
+	color: #663333;
+	background-color: white;
+	border: none;
+	cursor: pointer;
+}
+
+.lastLine {
+	width: 495px;
+	height: 25px;
+	background-color: #eeeeee;
+	margin: auto;
+	text-align: left;
+	vertical-align: middle;
+}
+.lastLine p {
+	margin: 0 0 0 5px;
+	font-family: Arial;
+	font-size: 13px;
+	color: #666666;
+	line-height: 5px;
+	display: inline-block;
+}
